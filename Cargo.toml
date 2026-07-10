@@ -1,0 +1,15 @@
+[package]
+name = "ntt_resilience"
+version = "0.5.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.8"
+rand_chacha = "0.3"
+num-complex = "0.4"
+
+[profile.dev]
+incremental = false
