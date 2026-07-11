@@ -1,0 +1,7 @@
+n,bits,mitigation,action,stage,injections,observed_rate,detection_rate,correction_rate,mean_check_failures,median_rms
+2048,28,butterfly-check,detect-only,0,240,0.925,0.6,0.0,1.945945945945946,1861.07234
+2048,28,butterfly-check,detect-only,5,240,1.0,0.7,0.0,2.1,1861.595085
+2048,28,butterfly-check,detect-only,10,240,1.0,0.725,0.0,2.175,1860.34857
+4096,28,butterfly-check,detect-only,0,240,0.925,0.6,0.0,1.945945945945946,2883.8424050000003
+4096,28,butterfly-check,detect-only,6,240,1.0,0.75,0.0,2.25,2880.906755
+4096,28,butterfly-check,detect-only,11,240,1.0,0.7,0.0,2.1,2889.1411

@@ -1,0 +1,11 @@
+n,bits,mitigation,action,fault_site,injections,observed_rate,detection_rate,correction_rate,mean_check_failures,median_rms
+2048,28,butterfly-check,detect-only,add-output,144,1.0,0.5,0.0,1.5,1863.7750350000001
+2048,28,butterfly-check,detect-only,butterfly-output,144,1.0,1.0,0.0,3.0,1860.4275499999999
+2048,28,butterfly-check,detect-only,mul-output,144,0.875,0.375,0.0,1.2857142857142858,1863.0186600000002
+2048,28,butterfly-check,detect-only,register-write,144,1.0,1.0,0.0,3.0,1860.4275499999999
+2048,28,butterfly-check,detect-only,sub-output,144,1.0,0.5,0.0,1.5,1858.40903
+4096,28,butterfly-check,detect-only,add-output,144,1.0,0.4583333333333333,0.0,1.375,2881.941285
+4096,28,butterfly-check,detect-only,butterfly-output,144,1.0,1.0,0.0,3.0,2885.11472
+4096,28,butterfly-check,detect-only,mul-output,144,0.875,0.4166666666666667,0.0,1.4285714285714286,2886.839765
+4096,28,butterfly-check,detect-only,register-write,144,1.0,1.0,0.0,3.0,2885.11472
+4096,28,butterfly-check,detect-only,sub-output,144,1.0,0.5416666666666666,0.0,1.625,2887.12349
